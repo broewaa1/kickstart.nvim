@@ -2,4 +2,13 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+require('lazy').setup {
+  -- ... other plugins ...
+  {
+    'github/copilot.nvim',
+    event = 'InsertEnter',
+    config = function()
+      vim.g.copilot_enabled = true
+    end,
+  },
+}
