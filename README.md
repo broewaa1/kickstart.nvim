@@ -1,4 +1,11 @@
 # kickstart.nvim
+# Neovim Configuration
+
+This repository contains my customized Neovim configuration using Kickstart and GitHub Copilot.
+
+## Changes
+- Added GitHub Copilot to Neovim
+- Customized Neovim configuration using Kickstart
 
 ## Introduction
 
